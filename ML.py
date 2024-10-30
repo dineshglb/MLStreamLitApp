@@ -14,14 +14,14 @@ st.header("**Types of Machine Learning**")
 
 col1,col2,col3=st.columns(3)
 col1.write("**Supervised Learning**")
-col1.image("D:\WbAPP\images\supervised.png")
+col1.image("images\supervised.png")
 col1.write("In supervised learning, the algorithm learns from labeled training data, which helps the model make predictions or decisions without being explicitly programmed to do so. Each example in the training dataset includes the input objects and the desired output. The goal is for the model to eventually make predictions that are as accurate as possible.")
 
 col2.write("**Unsupervised Learning**")
-col2.image("D:\\WbAPP\\images\\Unsupervised.png")
+col2.image("images\\Unsupervised.png")
 col2.write("In unsupervised learning, the algorithm is given data without any labels. The goal is to find hidden patterns or intrinsic structures in the input data. This type of learning is often used for clustering and association tasks. For example, clustering algorithms can group customers based on purchasing behavior without predefined labels.")
 col3.write("**Reinforcement Learning**")
-col3.image("D:\\WbAPP\\images\\Reinforcement.png")
+col3.image("\\images\\Reinforcement.png")
 col3.write("In reinforcement learning, an agent learns to make decisions by taking actions in an environment to maximize some notion of cumulative reward. The agent receives feedback in the form of rewards or penalties and uses this to learn the optimal behavior or policy. This type of learning is often used in robotics, gaming, and navigation.")
 st.spinner(text="In progress...")
 
