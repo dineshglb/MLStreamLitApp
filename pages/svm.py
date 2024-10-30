@@ -15,7 +15,7 @@ with header:
     st.write("A Support Vector Machine (SVM) is a powerful machine learning algorithm widely used for both linear and nonlinear classification, as well as regression and outlier detection tasks. SVMs are highly adaptable, making them suitable for various applications such as text classification, image classification, spam detection, handwriting identification, gene expression analysis, face detection, and anomaly detection.")
 with dataset:
     st.header("Spam-Ham Mail Dataset")
-    data= pd.read_csv("D:\WbAPP\spamEX10.csv",encoding='ISO-8859-1')
+    data= pd.read_csv("data/spamEX10.csv",encoding='ISO-8859-1')
     spam=pd.DataFrame(data['v2'].value_counts()).head(50)
     st.write(data.head(10))
     st.write('Visualisation')
